@@ -15,7 +15,7 @@ footer_text: >
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: yiwen zhu, rice university, space physics, magnetosphere, ring current, machine learning, space weather, ionosphere
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🌍 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⊕ # subtle academic-looking favicon glyph
 
 url: https://yiwenzhu77.github.io # the base hostname & protocol for your site
 baseurl: # blank — site lives at the user.github.io root

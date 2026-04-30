@@ -37,3 +37,122 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* =====================================================================
+   Yiwen's formal-academic overrides
+   - Serif body font (Source Serif Pro, fallback Charter, system serif)
+   - Monochrome theme (deep navy as accent, no purple)
+   - Tighter typographic rhythm
+   - Subtle, plain links (underlined on hover only)
+   ==================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@500;600;700&display=swap");
+
+:root {
+  /* override theme palette to monochrome + ink-blue accent */
+  --global-theme-color: #1a3a5c;          /* deep navy ink */
+  --global-hover-color: #1a3a5c;
+  --global-highlight-color: #1a3a5c;
+  --global-divider-color: rgba(0, 0, 0, 0.08);
+  --global-footer-bg-color: #1a1a1a;
+  --global-footer-text-color: #b8b8b8;
+  --global-footer-link-color: #ffffff;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #8db3d9;
+  --global-hover-color: #8db3d9;
+  --global-highlight-color: #8db3d9;
+}
+
+/* Body — serif, slightly larger, calmer line-height */
+body {
+  font-family: "Source Serif Pro", "Charter", "Iowan Old Style",
+               "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 16.5px;
+  line-height: 1.65;
+  letter-spacing: 0.005em;
+}
+
+/* Headings — sans-serif Inter for crisp, modern academic look */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.cv .card .card-title,
+nav .navbar-brand {
+  font-family: "Inter", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+h1 { font-weight: 700; }
+
+/* Slightly tighter section headings on About */
+.profile h1, .post .post-header h1, .post-title {
+  font-size: 1.9rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Subtle underline-on-hover links (not always-coloured) */
+a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+a:hover {
+  color: var(--global-theme-color);
+  border-bottom-color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+/* Profile picture: square corners with light border, no circle by default */
+.profile img {
+  border-radius: 4px !important;
+  border: 1px solid var(--global-divider-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Publications: cleaner separators, no purple bg, plain bibtex blocks */
+.publications ol.bibliography li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.publications ol.bibliography li .title {
+  font-weight: 600;
+}
+
+/* Selected papers list on home: tighter, separators only */
+.selected-papers ol.bibliography li {
+  padding: 0.6rem 0;
+}
+
+/* Section headings on home — small uppercase tracking, like a paper */
+.about h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+html[data-theme="dark"] .about h3 { color: #aaa; }
+
+/* Footer: minimal */
+footer.fixed-bottom {
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+}
+
+/* Code samples: monospace + slight tint */
+code, pre {
+  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 0.92em;
+}
+
+/* Tighten navbar */
+nav.navbar { font-family: "Inter", sans-serif; font-weight: 500; }
+nav.navbar .nav-link { font-size: 0.95rem; }
+

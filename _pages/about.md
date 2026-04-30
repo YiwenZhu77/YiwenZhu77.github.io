@@ -7,7 +7,7 @@ subtitle: PhD candidate, <a href='https://physics.rice.edu/'>Department of Physi
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
     <p><strong>Yiwen Zhu (朱轶文)</strong></p>
     <p>Houston, TX, USA</p>
