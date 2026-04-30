@@ -153,3 +153,85 @@ code, pre {
 nav.navbar { font-family: "Inter", sans-serif; font-weight: 500; }
 nav.navbar .nav-link { font-size: 0.95rem; }
 
+/* ===== Single-page sections ===== */
+.single-page-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
+  scroll-margin-top: 80px;  /* offset fixed navbar when anchor-jumping */
+}
+#about { scroll-margin-top: 80px; }
+#research, #publications, #news, #contact { scroll-margin-top: 80px; }
+
+.section-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-bottom: 1.4rem;
+}
+
+/* ===== Project rows (image left, text right) ===== */
+.project-row {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.project-row:last-child { border-bottom: none; }
+.project-row .project-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid var(--global-divider-color);
+}
+.project-row .project-text h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+}
+.project-row .project-text h3 a {
+  color: var(--global-text-color);
+}
+.project-row .project-text h3 a:hover {
+  color: var(--global-theme-color);
+}
+.project-row .project-desc {
+  font-size: 0.97rem;
+  margin-bottom: 0.4rem;
+}
+.project-row .project-links {
+  font-size: 0.85rem;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0;
+}
+.project-status {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 1px 7px;
+  margin-left: 0.6rem;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+.status-completed { background: #e8efe8; color: #2c5530; }
+.status-ongoing   { background: #fff3d8; color: #7a5b00; }
+.status-tooling   { background: #e6ecf2; color: #1a3a5c; }
+
+html[data-theme="dark"] .status-completed { background: #1a3320; color: #b8d4be; }
+html[data-theme="dark"] .status-ongoing   { background: #3a2e10; color: #f0d987; }
+html[data-theme="dark"] .status-tooling   { background: #1a2838; color: #8db3d9; }
+
+/* On narrow screens, stack the project rows */
+@media (max-width: 640px) {
+  .project-row {
+    grid-template-columns: 1fr;
+  }
+}
+

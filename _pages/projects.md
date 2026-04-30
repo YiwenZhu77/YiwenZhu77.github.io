@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research projects, both completed and in progress.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [completed, ongoing, tooling]
 horizontal: false
