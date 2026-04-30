@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Selected research projects, both completed and in progress.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -415,31 +415,41 @@ ninja.data = [{
             },},{id: "news-this-personal-site-went-live-built-with-al-folio-on-github-pages",
           title: 'This personal site went live, built with al-folio on GitHub Pages.',
           description: "",
-          section: "News",},{id: "projects-backtrac",
-          title: 'BackTrac',
-          description: "Backward test-particle tracing in MAGE — bubble origin of ring-current ions",
+          section: "News",},{id: "projects-opof-backtrac",
+          title: 'OpOF / BackTrac',
+          description: "Bubble origin of ring-current ions during dipolarization (manuscript in preparation)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_backtrac/";
+              window.location.href = "/projects/1_opof/";
             },},{id: "projects-cuspml",
           title: 'cuspML',
-          description: "XGBoost prediction of ionospheric cusp location from 27 years of DMSP data",
+          description: "XGBoost prediction of the ionospheric cusp from 27 years of DMSP data (manuscript in late revision)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_cuspml/";
-            },},{id: "projects-rcm-chimp-coupling",
-          title: 'RCM + CHIMP coupling',
-          description: "Test-particle modeling of plasma-sheet flow channels with the Rice Convection Model",
+            },},{id: "projects-operational-rcm-with-nasa",
+          title: 'Operational RCM with NASA',
+          description: "Real-time nowcasting of injections into geosynchronous orbit (NASA collaboration, 2021&amp;ndash;2022)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_rcm_chimp/";
-            },},{id: "projects-tec-fno",
-          title: 'TEC-FNO',
-          description: "Fourier neural operators for global ionospheric TEC forecasting",
+              window.location.href = "/projects/3_operational_rcm/";
+            },},{id: "projects-solarmamba-tec-fno",
+          title: 'SolarMamba (TEC-FNO)',
+          description: "Protocol-dependent multi-horizon SYM-H and TEC forecasting (in progress, target Space Weather)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_tec_fno/";
+              window.location.href = "/projects/4_solarmamba/";
+            },},{id: "projects-llms-hardware-mlcad-2026",
+          title: 'LLMs × Hardware (MLCAD 2026)',
+          description: "How complex can LLMs go? Multi-model empirical study of processor design with ASIC PnR (in progress)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_mlcad/";
+            },},{id: "projects-long-context-reliability-of-llms",
+          title: 'Long-Context Reliability of LLMs',
+          description: "A 56-page survey on benchmarks, failure modes, and practitioner guidelines (in revision, Neurocomputing)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_long_context_survey/";
             },},{id: "projects-aris",
           title: 'ARIS',
           description: "An agent-driven autonomous research pipeline on top of Claude Code",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_aris/";
+              window.location.href = "/projects/7_aris/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
