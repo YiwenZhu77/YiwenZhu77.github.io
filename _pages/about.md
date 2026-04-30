@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a PhD candidate in space physics at **Rice University**, working with [Frank Toffoletto](https://profiles.rice.edu/faculty/frank-r-toffoletto) on the dynamics of Earth's inner magnetosphere. My research combines large-scale magnetohydrodynamic (MHD) simulations, kinetic test-particle modeling, and machine learning to understand how the magnetosphere stores and releases energy during geomagnetic storms and substorms.
+I'm a final-year PhD candidate in space physics at **Rice University**, working with [Frank Toffoletto](https://profiles.rice.edu/faculty/frank-r-toffoletto) on the dynamics of Earth's inner magnetosphere. I'm concurrently completing an MS in **Computer Science (Data &amp; Artificial Intelligence)** at Rice. My research combines large-scale magnetohydrodynamic (MHD) simulations, kinetic test-particle modeling, and machine learning to understand how the magnetosphere stores and releases energy during geomagnetic storms and substorms.
 
 ### Research interests
 
@@ -39,6 +39,6 @@ I'm a PhD candidate in space physics at **Rice University**, working with [Frank
 
 ### Background
 
-Before Rice, I was affiliated with the [High Altitude Observatory](https://www2.hao.ucar.edu/) at NCAR, where I retain access to the Derecho HPC system. My day-to-day toolchain is heavy on Python (polars, JAX, PyTorch), HPC-scale numerical simulation (CHIMP, RCM, MAGE), and a growing stack of LLM agent tooling.
+Before Rice I earned my BS in Physics at the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in Shenzhen (GPA 3.85 / 4.00). I'm an HPC affiliate of the [High Altitude Observatory](https://www2.hao.ucar.edu/) at NCAR, where I run my numerical work on the Derecho system. My day-to-day toolchain is heavy on Python (polars, JAX, PyTorch), HPC-scale numerical simulation (CHIMP, RCM, MAGE), and a growing stack of LLM agent tooling.
 
 If you're interested in space-physics + ML, magnetospheric particle dynamics, or research-agent infrastructure, I'd love to talk.

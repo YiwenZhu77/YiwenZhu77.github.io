@@ -4,7 +4,7 @@ cv:
   email: yz167@rice.edu
   location: Houston, TX, USA
   image: ""
-  summary: PhD candidate at Rice University working on inner-magnetosphere particle dynamics, ring-current physics, and machine learning for space weather.
+  summary: PhD candidate at Rice University working on inner-magnetosphere particle dynamics, ring-current physics, and machine learning for space weather. Concurrent MS in Computer Science (Data & AI) at Rice.
 
   social_networks:
     - network: GitHub
@@ -20,29 +20,57 @@ cv:
       - institution: Rice University
         location: Houston, TX, USA
         url: https://physics.rice.edu/
-        area: Space Physics (Inner Magnetosphere)
+        area: Physics — Space Physics &amp; Plasma Physics
         studyType: PhD
-        start_date: TBD-fill-in
-        end_date: present
+        start_date: 2020
+        end_date: 2025
         highlights:
           - "Advisor: Frank Toffoletto"
-          - "Research: ring-current particle dynamics, RCM/CHIMP coupling, ML for space weather"
+          - "Dissertation: ring-current particle dynamics in coupled MHD + RCM simulations of Earth's inner magnetosphere"
 
-      - institution: TBD-undergrad-institution
-        location: TBD
+      - institution: Rice University
+        location: Houston, TX, USA
+        url: https://csweb.rice.edu/
+        area: Computer Science — Data &amp; Artificial Intelligence track
+        studyType: MS (concurrent)
+        start_date: 2024
+        end_date: 2025
+
+      - institution: Rice University
+        location: Houston, TX, USA
+        url: https://physics.rice.edu/
+        area: Astronomy
+        studyType: MS
+        start_date: 2020
+        end_date: 2022
+
+      - institution: Southern University of Science and Technology (SUSTech)
+        location: Shenzhen, China
+        url: https://www.sustech.edu.cn/
         area: Physics
         studyType: BS
-        start_date: TBD
-        end_date: TBD
-        highlights:
-          - TBD
+        start_date: 2016
+        end_date: 2020
+        score: "GPA 3.85 / 4.00"
 
     Experience:
+      - company: Rice University &mdash; Department of Physics &amp; Astronomy
+        position: Graduate Research Assistant
+        location: Houston, TX, USA
+        url: https://physics.rice.edu/
+        start_date: 2020
+        end_date: present
+        highlights:
+          - "Backward test-particle tracing in coupled MHD + RCM simulations to identify the bubble origin of ring-current ions"
+          - "RCM &mdash; CHIMP coupling and validation against MHD; cross-comparison of independent backtracking codes (cos &theta; &asymp; 0.98)"
+          - "ML pipelines for ionospheric cusp prediction (XGBoost) and TEC nowcasting (Fourier neural operators)"
+          - "HPC orchestration on NCAR Derecho (1M-particle batches across 9M total particles, &gt; 200k-file H5Part datasets)"
+
       - company: High Altitude Observatory, NCAR
-        position: Visiting graduate researcher (Derecho HPC affiliate)
+        position: Visiting Graduate Researcher (Derecho HPC affiliate)
         location: Boulder, CO, USA
         url: https://www2.hao.ucar.edu/
-        start_date: TBD
+        start_date: 2021
         end_date: present
         highlights:
           - "HPC affiliation for the NCAR Derecho system"
@@ -50,8 +78,8 @@ cv:
 
     Research areas:
       - title: Magnetospheric particle dynamics
-        description: Backward test-particle tracing, ring-current loss & sources, dipolarization & substorm physics
-      - title: Magnetosphere–ionosphere coupling
+        description: Backward test-particle tracing, ring-current loss &amp; sources, dipolarization &amp; substorm physics
+      - title: Magnetosphere&ndash;ionosphere coupling
         description: RCM modeling, polar-cap convection, field-aligned currents, cusp dynamics
       - title: ML for space weather
         description: Fourier neural operators for TEC, XGBoost cusp-location prediction, transformer surrogates
@@ -60,20 +88,10 @@ cv:
 
     Skills:
       - title: Programming
-        description: Python (polars, NumPy, h5py, JAX, PyTorch), Rust, Swift, Julia (basic), C/Fortran (read)
+        description: Python (polars, NumPy, h5py, JAX, PyTorch), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
       - title: HPC
-        description: PBS/Slurm, MPI, OpenMP, MAGE/CHIMP/RCM, h5part, Derecho
-      - title: ML
-        description: XGBoost, FNO, transformers, diffusion (read), Wandb, Modal serverless
+        description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part, Derecho
+      - title: ML / data
+        description: PyTorch, TensorFlow, scikit-learn, JAX, XGBoost, Hugging Face Transformers, Polars, DuckDB, Pandas
       - title: Research tooling
-        description: Jekyll, LaTeX, Quarto, Claude Code skills + MCP, Zotero MCP
-
-    Selected papers:
-      - title: TBD — see /publications/
-
-    Honors and Awards:
-      - position: TBD
-        description: ""
-        organization: ""
-        location: ""
-        date: TBD
+        description: Jekyll, LaTeX, Quarto, Claude Code skills + MCP, Zotero MCP, Obsidian
