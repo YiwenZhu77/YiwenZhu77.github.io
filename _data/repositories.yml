@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - YiwenZhu77
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - YiwenZhu77/cuspML
+  - YiwenZhu77/backtrac
+  - YiwenZhu77/rcm-backtrac
+  - YiwenZhu77/WinDragApp
+  - YiwenZhu77/http_server
+  - YiwenZhu77/grok_notification

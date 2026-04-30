@@ -2,33 +2,43 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD candidate, <a href='https://physics.rice.edu/'>Department of Physics &amp; Astronomy</a>, Rice University. Advised by <a href='https://profiles.rice.edu/faculty/frank-r-toffoletto'>Frank Toffoletto</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Yiwen Zhu (朱轶文)</strong></p>
+    <p>Houston, TX, USA</p>
+    <p><a href="mailto:yz167@rice.edu">yz167@rice.edu</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a PhD candidate in space physics at **Rice University**, working with [Frank Toffoletto](https://profiles.rice.edu/faculty/frank-r-toffoletto) on the dynamics of Earth's inner magnetosphere. My research combines large-scale magnetohydrodynamic (MHD) simulations, kinetic test-particle modeling, and machine learning to understand how the magnetosphere stores and releases energy during geomagnetic storms and substorms.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### Research interests
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **Ring current & substorm dynamics** — backward test-particle tracing through coupled MHD + RCM simulations to identify the *bubble origin* of ring-current ions during dipolarization events.
+- **Cusp & open–closed boundary** — machine-learning models that predict ionospheric cusp location from solar wind drivers and 27 years of DMSP particle data.
+- **Magnetosphere–ionosphere coupling** — RCM-based modeling of plasma-sheet flow channels, polar cap convection, and field-aligned currents.
+- **ML for space weather** — Fourier neural operators and transformer architectures for total electron content (TEC) and ionospheric forecasting.
+- **Agent-driven scientific computing** — building autonomous research pipelines (idea discovery → experiments → paper) on top of Claude Code and HPC.
+
+### Background
+
+Before Rice, I was affiliated with the [High Altitude Observatory](https://www2.hao.ucar.edu/) at NCAR, where I retain access to the Derecho HPC system. My day-to-day toolchain is heavy on Python (polars, JAX, PyTorch), HPC-scale numerical simulation (CHIMP, RCM, MAGE), and a growing stack of LLM agent tooling.
+
+If you're interested in space-physics + ML, magnetospheric particle dynamics, or research-agent infrastructure, I'd love to talk.
