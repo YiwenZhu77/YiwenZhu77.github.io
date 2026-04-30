@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p><strong>Yiwen Zhu (朱轶文)</strong></p>
+    <p><strong>Yiwen Zhu (朱亦文)</strong></p>
     <p>Houston, TX, USA</p>
     <p><a href="mailto:yz167@rice.edu">yz167@rice.edu</a></p>
 
