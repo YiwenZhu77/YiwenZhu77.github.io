@@ -31,14 +31,28 @@ I'm a final-year PhD candidate in space physics at **Rice University**, working 
 
 ### Research interests
 
-- **Ring current & substorm dynamics** — backward test-particle tracing through coupled MHD + RCM simulations to identify the *bubble origin* of ring-current ions during dipolarization events.
-- **Cusp & open–closed boundary** — machine-learning models that predict ionospheric cusp location from solar wind drivers and 27 years of DMSP particle data.
-- **Magnetosphere–ionosphere coupling** — RCM-based modeling of plasma-sheet flow channels, polar cap convection, and field-aligned currents.
-- **ML for space weather** — Fourier neural operators and transformer architectures for total electron content (TEC) and ionospheric forecasting.
-- **Agent-driven scientific computing** — building autonomous research pipelines (idea discovery → experiments → paper) on top of Claude Code and HPC.
+- **Ring-current &amp; substorm dynamics** &mdash; backward test-particle tracing through coupled MHD + RCM simulations to identify the *bubble origin* of ring-current ions during dipolarization events.
+- **Magnetosphere&ndash;ionosphere coupling** &mdash; Rice Convection Model (RCM) modeling of plasma-sheet flow channels, polar-cap convection, field-aligned currents, and the cusp.
+- **Machine learning for space weather** &mdash; Fourier neural operators and transformers for ionospheric and ring-current nowcasting; XGBoost models for cusp-location prediction.
+- **LLM-driven scientific computing** &mdash; benchmarking frontier LLMs on full-CPU hardware design, building autonomous research-agent pipelines, and surveying long-context reliability in LLMs.
+
+### Recent work
+
+**Completed &amp; submitted**
+
+- *O$^{+}$ outflow contribution to the ring current during geomagnetic storms* &mdash; backward test-particle tracing in coupled MHD + RCM simulations identifies bubble-injection events as the dominant energization channel; Birn-decomposition shows ~30% of ring-current pressure increase originates from coherent dipolarization bubbles. Manuscript in preparation, AGU 2023.
+- *XGBoost prediction of ionospheric cusp location* &mdash; 27-year DMSP dataset, tilt-stratified sampling to control for the natural dipole-tilt imbalance. Manuscript in late revision.
+- *A Multi-Agent Systems Survey* &mdash; submitted to MDPI *Future Internet*.
+- *Operational RCM &amp; geosynchronous-injection nowcasting* &mdash; collaboration with NASA on a real-time injection-prediction model based on RCM (AGU 2022, GEM 2022).
+
+**In progress**
+
+- *Multi-LLM benchmarking on processor design with ASIC physical implementation* &mdash; targeting **MLCAD 2026**, comparing five frontier LLMs across five complexity levels from ALU to full-CPU at 7&nbsp;nm.
+- *Long-context reliability in large language models &mdash; a 56-page survey* &mdash; in revision for *Neurocomputing* (Elsevier).
+- *Protocol-dependent multi-horizon SYM-H forecasting* (working title: SolarMamba) &mdash; transformer / Mamba-based ring-current index forecasting under cross-solar-cycle evaluation; targeting *Space Weather*.
 
 ### Background
 
-Before Rice I earned my BS in Physics at the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in Shenzhen (GPA 3.85 / 4.00). I'm an HPC affiliate of the [High Altitude Observatory](https://www2.hao.ucar.edu/) at NCAR, where I run my numerical work on the Derecho system. My day-to-day toolchain is heavy on Python (polars, JAX, PyTorch), HPC-scale numerical simulation (CHIMP, RCM, MAGE), and a growing stack of LLM agent tooling.
+Before Rice I earned my BS in Physics at the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in Shenzhen (GPA 3.85 / 4.00). I'm an HPC affiliate of the [High Altitude Observatory](https://www2.hao.ucar.edu/) at NCAR, where I run my numerical work on the Derecho system. My day-to-day toolchain is Python (polars, JAX, PyTorch), HPC-scale numerical simulation (CHIMP, RCM, MAGE), and a growing stack of LLM agent tooling.
 
 If you're interested in space-physics + ML, magnetospheric particle dynamics, or research-agent infrastructure, I'd love to talk.

@@ -2,8 +2,8 @@
 layout: page
 title: ARIS
 description: An agent-driven autonomous research pipeline on top of Claude Code
-img: assets/img/2.jpg
-importance: 5
+img: assets/img/9.jpg
+importance: 7
 category: tooling
 ---
 
