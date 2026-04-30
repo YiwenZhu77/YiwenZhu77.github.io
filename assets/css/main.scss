@@ -48,18 +48,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@500;600;700&display=swap");
 
-:root {
-  /* override theme palette to monochrome + ink-blue accent */
-  --global-theme-color: #1a3a5c;          /* deep navy ink */
+/* Theme color overrides applied via body to survive purgecss dedup of :root */
+body {
+  --global-theme-color: #1a3a5c;
   --global-hover-color: #1a3a5c;
   --global-highlight-color: #1a3a5c;
   --global-divider-color: rgba(0, 0, 0, 0.08);
-  --global-footer-bg-color: #1a1a1a;
-  --global-footer-text-color: #b8b8b8;
-  --global-footer-link-color: #ffffff;
 }
 
-html[data-theme="dark"] {
+html[data-theme="dark"] body {
   --global-theme-color: #8db3d9;
   --global-hover-color: #8db3d9;
   --global-highlight-color: #8db3d9;
