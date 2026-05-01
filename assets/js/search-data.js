@@ -384,44 +384,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-this-personal-site-went-live-built-with-al-folio-on-github-pages",
-          title: 'This personal site went live, built with al-folio on GitHub Pages.',
-          description: "",
-          section: "News",},{id: "projects-opof-backtrac",
-          title: 'OpOF / BackTrac',
-          description: "Bubble origin of ring-current ions during dipolarization (manuscript in preparation)",
+            },},{id: "projects-global-mhd-simulation-of-earth-39-s-magnetosphere",
+          title: 'Global MHD Simulation of Earth&amp;#39;s Magnetosphere',
+          description: "Coupled MHD + RCM simulations with the MAGE model — bubble origin of ring-current ions",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_opof/";
-            },},{id: "projects-cuspml",
-          title: 'cuspML',
-          description: "XGBoost prediction of the ionospheric cusp from 27 years of DMSP data (manuscript in late revision)",
+              window.location.href = "/projects/1_global_mhd/";
+            },},{id: "projects-space-weather-operational-rcm-with-nasa",
+          title: 'Space Weather — Operational RCM with NASA',
+          description: "Real-time nowcasting of substorm injections into geosynchronous orbit",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_cuspml/";
-            },},{id: "projects-operational-rcm-with-nasa",
-          title: 'Operational RCM with NASA',
-          description: "Real-time nowcasting of injections into geosynchronous orbit (NASA collaboration, 2021&amp;ndash;2022)",
+              window.location.href = "/projects/2_space_weather/";
+            },},{id: "projects-machine-learning-for-space-physics",
+          title: 'Machine Learning for Space Physics',
+          description: "cuspML and TEC-FNO — fast surrogates for ionospheric prediction",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_operational_rcm/";
-            },},{id: "projects-solarmamba-tec-fno",
-          title: 'SolarMamba (TEC-FNO)',
-          description: "Protocol-dependent multi-horizon SYM-H and TEC forecasting (in progress, target Space Weather)",
+              window.location.href = "/projects/3_ml_for_physics/";
+            },},{id: "projects-llm-validation-amp-amp-exploration",
+          title: 'LLM Validation &amp;amp;amp; Exploration',
+          description: "Frontier-LLM benchmarks for processor design and a survey of long-context reliability",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_solarmamba/";
-            },},{id: "projects-llms-hardware-mlcad-2026",
-          title: 'LLMs × Hardware (MLCAD 2026)',
-          description: "How complex can LLMs go? Multi-model empirical study of processor design with ASIC PnR (in progress)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_mlcad/";
-            },},{id: "projects-long-context-reliability-of-llms",
-          title: 'Long-Context Reliability of LLMs',
-          description: "A 56-page survey on benchmarks, failure modes, and practitioner guidelines (in revision, Neurocomputing)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_long_context_survey/";
-            },},{id: "projects-aris",
-          title: 'ARIS',
-          description: "An agent-driven autonomous research pipeline on top of Claude Code",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_aris/";
+              window.location.href = "/projects/4_llm_validation/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
