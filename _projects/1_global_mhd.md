@@ -11,5 +11,5 @@ Earth's magnetosphere is the giant region of space carved out by the solar wind 
 
 Within this area I work on the following projects:
 
-- **OpOF (Open Field-line Outflow).** A forward-transport study of how cusp-origin O+ ions reach the inner magnetosphere through a three-phase pathway (lobe, closed-field-line drop-down, and equatorial transport), with attention to what controls the drop-down step and its consequences for landing location, energization, and loss.
-- **Bubble contribution to the ring current.** A backward test-particle tracer (BackTrac) used to identify which fraction of storm-time ring-current ions originate from coherent dipolarization bubbles in the plasma sheet.
+- **OpOF (Open Field-line Outflow).** A study of how O+ ions originating in the cusp are transported to the inner magnetosphere.
+- **BBF contribution to the ring current.** A backward test-particle tracer (BackTrac) used to identify which fraction of storm-time ring-current ions originate from Bursty Bulk Flows (BBFs) in the plasma sheet.

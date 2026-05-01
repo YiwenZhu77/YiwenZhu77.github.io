@@ -254,12 +254,13 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
 }
 
 /* ----- Project / research-area rows ----- */
+/* Use clamp() so figure column scales with page width while staying readable */
 .project-row {
   display: grid;
-  grid-template-columns: 360px 1fr;
-  gap: 1.6rem;
+  grid-template-columns: clamp(280px, 38%, 460px) 1fr;
+  gap: 1.8rem;
   align-items: start;
-  padding: 1.4rem 0;
+  padding: 1.6rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 .project-row:last-child { border-bottom: none; }
