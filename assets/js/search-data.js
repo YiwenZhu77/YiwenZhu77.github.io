@@ -386,7 +386,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-global-mhd-simulation-of-earth-39-s-magnetosphere",
           title: 'Global MHD Simulation of Earth&amp;#39;s Magnetosphere',
-          description: "Coupled MHD + RCM simulation of energy storage and release during geomagnetic storms",
+          description: "Coupled MHD + RCM simulation of the magnetosphere",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_global_mhd/";
             },},{id: "projects-space-weather-forecasting",
@@ -396,7 +396,7 @@ ninja.data = [{
               window.location.href = "/projects/2_space_weather/";
             },},{id: "projects-machine-learning-for-space-physics",
           title: 'Machine Learning for Space Physics',
-          description: "Fast surrogates for ionospheric and ring-current quantities driven by space data",
+          description: "Fast surrogates for ionospheric and ring-current quantities",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_ml_for_space_physics/";
             },},{id: "projects-llm-validation-amp-amp-exploration",
