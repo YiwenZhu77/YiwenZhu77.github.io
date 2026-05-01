@@ -177,7 +177,7 @@ nav.navbar .navbar-nav {
   gap: 0.4rem 1.5rem;
 }
 nav.navbar .nav-link {
-  color: rgba(255, 255, 255, 0.85) !important;
+  color: #ffffff !important;
   font-size: 0.9rem !important;
   padding: 0.25rem 0.4rem !important;
   border-bottom: none !important;
@@ -186,7 +186,7 @@ nav.navbar .nav-link {
 nav.navbar .nav-link:hover,
 nav.navbar .nav-item.active .nav-link {
   color: #ffffff !important;
-  border-bottom: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) !important;
 }
 
 /* ----- Compact home-page header: big centered name + small affiliation ----- */

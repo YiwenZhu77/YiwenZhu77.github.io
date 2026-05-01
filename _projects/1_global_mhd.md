@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Global MHD Simulation of Earth's Magnetosphere
-description: Coupled MHD + RCM simulations with the MAGE model — bubble origin of ring-current ions
+description: Coupled MHD + RCM simulation of energy storage and release during geomagnetic storms
 img: assets/img/area_mhd_simulation.jpg
 importance: 1
 category: research
 ---
 
-How does Earth's magnetosphere store and release energy during geomagnetic storms? My dissertation work uses the **MAGE** (Multiscale Atmosphere–Geospace Environment) coupled MHD + RCM model on NCAR Derecho to attack this question at the kinetic level.
+Earth's magnetosphere is the giant region of space carved out by the solar wind interacting with our planet's magnetic field. Inside, plasma circulates, accelerates, and is occasionally violently rearranged during *substorms* and *geomagnetic storms*. Global magnetohydrodynamic (MHD) simulation, coupled with kinetic models of the inner magnetosphere, is the primary tool we have for understanding how this storage-and-release cycle of energy actually works.
 
-The flagship project, **OpOF** (Open Field-line Outflow), backward-traces ring-current ion guiding centers through MAGE's time-dependent fields, conserving the first adiabatic invariant μ. By identifying coherent dipolarization bubbles via the δ$S$ diagnostic (Sorathia 2021) and decomposing the energization budget into betatron, Fermi, and pressure-driven (PVG) channels, we show that the **PVG channel dominates** ring-current build-up, with **~30 %** of energetic ions traceable to bubble injections (vs. ~16 % in earlier comparison runs). The bubble effect on energization is highly significant ($K_\mathrm{landing}$ 16.3 vs 9.6&nbsp;keV, $p&lt;10^{-3}$); the *landing location* is not — bubbles change the energy an ion arrives with, not where it ends up.
+My dissertation work uses the **MAGE** (Multiscale Atmosphere–Geospace Environment) coupled MHD + RCM model on NCAR's Derecho HPC system. Within this framework I work on the following projects:
 
-Code: [github.com/YiwenZhu77/backtrac](https://github.com/YiwenZhu77/backtrac) &middot; [github.com/YiwenZhu77/rcm-backtrac](https://github.com/YiwenZhu77/rcm-backtrac).
+- **OpOF (Open Field-line Outflow).** Backward test-particle tracing through the time-dependent fields of the global simulation to identify where storm-time ring-current ions actually come from. The work shows that pressure-driven gradient drift is the dominant energization channel, and that coherent dipolarization bubbles change the *energy* with which an ion arrives at the ring current rather than its landing *location*.
+- **CHIMP &amp; RCM coupling.** Validation and extension of the kinetic test-particle layer that connects MHD-scale flow channels to inner-magnetosphere transport, including the bounce-averaged $\eta$/$\lambda$ formulation and inductive-$E$ handling for the full ring-current loss cone.
+- **MAGE diagnostics.** Phase-stratified analyses of substorm injections at scale, with custom δ$S$- and Δ$B_z$-based bubble identification.
