@@ -301,7 +301,15 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
   margin-bottom: 0.5rem;
 }
 .project-row .project-body ul li {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.55rem;
+}
+/* Highlight the project name (leading bold span) in each bullet */
+.project-row .project-body ul li > strong:first-child {
+  color: var(--global-theme-color);
+  font-family: "Source Serif Pro", "Charter", serif;
+  font-weight: 700;
+  font-size: 1.02em;
+  letter-spacing: 0.005em;
 }
 .project-status {
   display: inline-block;
