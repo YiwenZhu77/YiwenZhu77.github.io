@@ -60,7 +60,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1140px
+max_width: 850px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -299,8 +299,9 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
+  group_by: none
+  sort_by: year,month
+  order: descending,descending
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid

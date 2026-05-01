@@ -330,33 +330,65 @@ html[data-theme="dark"] .status-completed { background: #1a3320; color: #b8d4be;
 html[data-theme="dark"] .status-ongoing   { background: #3a2e10; color: #f0d987; }
 html[data-theme="dark"] .status-tooling   { background: #1a2838; color: #8db3d9; }
 
-/* ----- Compact publications list (selected_papers homepage section) ----- */
+/* ----- Publications list (Chen-Shi-style: flat numbered, year-desc) ----- */
+#publications .pub-note {
+  text-align: center;
+  font-size: 0.92rem;
+  font-family: "Inter", sans-serif;
+  color: #666;
+  margin: -0.4rem 0 1rem;
+}
+html[data-theme="dark"] #publications .pub-note { color: #aaa; }
+#publications .pub-note a { font-weight: 600; }
+
+/* Hide jekyll-scholar year headers (we use group_by:none, but defensive) */
+#publications .publications h2.bibliography { display: none; }
+
+/* Continuous numbered counter across the entire publications block */
+#publications .publications { counter-reset: pubs; }
+
 #publications ol.bibliography {
-  counter-reset: pubs;
   list-style: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
+
 #publications ol.bibliography li {
   position: relative;
   counter-increment: pubs;
-  padding: 0.45rem 0 0.45rem 2.2rem;
+  padding: 0.55rem 0 0.55rem 2.4rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  font-size: 0.92rem;
-  line-height: 1.45;
+  font-size: 0.93rem;
+  line-height: 1.5;
 }
 #publications ol.bibliography li::before {
   content: counter(pubs) ".";
   position: absolute;
   left: 0;
-  top: 0.45rem;
+  top: 0.55rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #888;
+  min-width: 1.8rem;
+  text-align: right;
 }
 #publications ol.bibliography li:last-child { border-bottom: none; }
-#publications ol.bibliography li .title { font-weight: 600; }
+
+/* Title: italic + bold (Chen Shi style) */
+#publications ol.bibliography li .title {
+  font-style: italic;
+  font-weight: 700;
+  color: var(--global-text-color);
+}
 #publications ol.bibliography li .author { font-style: normal; }
+#publications ol.bibliography li .author em { font-weight: 700; font-style: normal; }
 #publications ol.bibliography li .periodical { font-style: italic; }
+#publications ol.bibliography li abbr.badge { display: none; }
+/* Hide the al-folio thumbnail/abbr column on home (we configured no preview) */
+#publications ol.bibliography li .col-sm-2 { display: none !important; }
+#publications ol.bibliography li .row { display: block; }
+#publications ol.bibliography li .col-sm-10,
+#publications ol.bibliography li .col-sm-8 { width: 100% !important; max-width: 100% !important; flex: 1 1 100% !important; }
 
 /* ----- Contact section ----- */
 #contact {
