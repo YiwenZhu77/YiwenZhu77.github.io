@@ -253,14 +253,14 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-/* ----- Compact project rows ----- */
+/* ----- Project / research-area rows ----- */
 .project-row {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 1.2rem;
+  grid-template-columns: 280px 1fr;
+  gap: 1.4rem;
   align-items: start;
-  padding: 1rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 1.4rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 .project-row:last-child { border-bottom: none; }
 .project-row .project-img img {
@@ -271,10 +271,9 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
 }
 .project-row .project-text h3 {
   font-family: "Source Serif Pro", "Charter", serif;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin: 0 0 0.35rem 0;
-  text-align: center;
+  margin: 0 0 0.45rem 0;
 }
 .project-row .project-text h3 a {
   color: var(--global-text-color);
