@@ -53,16 +53,8 @@ layout: default
             </div>
           {% endif %}
           <div class="project-text">
-            <h3>
-              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-              {% if project.category %}<span class="project-status status-{{ project.category }}">{{ project.category }}</span>{% endif %}
-            </h3>
-            <p class="project-desc">{{ project.description }}</p>
-            {% if project.github %}
-              <p class="project-links">
-                <a href="{{ project.github }}" target="_blank" rel="noopener">code</a>
-              </p>
-            {% endif %}
+            <h3>{{ project.title }}</h3>
+            <div class="project-body">{{ project.content | markdownify }}</div>
           </div>
         </div>
       {% endfor %}

@@ -275,21 +275,20 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
   font-weight: 700;
   margin: 0 0 0.45rem 0;
 }
-.project-row .project-text h3 a {
-  color: var(--global-text-color);
-}
-.project-row .project-text h3 a:hover {
-  color: var(--global-theme-color);
-}
-.project-row .project-desc {
+.project-row .project-body p {
   font-size: 0.95rem;
-  line-height: 1.5;
-  margin-bottom: 0.3rem;
+  line-height: 1.55;
+  margin-bottom: 0.6rem;
 }
-.project-row .project-links {
-  font-size: 0.82rem;
-  font-family: "Inter", sans-serif;
-  margin-bottom: 0;
+.project-row .project-body p:last-child { margin-bottom: 0; }
+.project-row .project-body ul {
+  font-size: 0.93rem;
+  line-height: 1.5;
+  padding-left: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.project-row .project-body ul li {
+  margin-bottom: 0.35rem;
 }
 .project-status {
   display: inline-block;

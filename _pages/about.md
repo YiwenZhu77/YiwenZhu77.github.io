@@ -34,6 +34,6 @@ I am a final-year PhD candidate in space physics at [Rice University](https://ph
 
 I earned my BS at the [Southern University of Science and Technology](https://www.sustech.edu.cn/) (SUSTech) and remain an HPC affiliate of [NCAR](https://www2.hao.ucar.edu/) for my Derecho-based numerical work.
 
-I am also broadly interested in machine learning and AI as research subjects in their own right. My current interests include validating frontier large language models on long-horizon technical tasks, using LLMs to do full processor (CPU) design with ASIC physical implementation, and machine-learning surrogates for ionospheric and ring-current quantities such as cusp location and total electron content.
+I am also broadly interested in machine learning and AI as research subjects in their own right. My current interests include validating frontier large language models on long-horizon technical tasks and using LLMs to do full processor (CPU) design with ASIC physical implementation.
 
 Here is my <a href="{{ '/cv/' | relative_url }}">CV</a>. I am on the academic / industry job market this cycle — please feel free to reach out at <a href="mailto:yz167@rice.edu">yz167@rice.edu</a>.
