@@ -394,11 +394,16 @@ ninja.data = [{
           description: "Operational nowcasting of substorm injections and ring-current dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_space_weather/";
+            },},{id: "projects-machine-learning-for-space-physics",
+          title: 'Machine Learning for Space Physics',
+          description: "Fast surrogates for ionospheric and ring-current quantities driven by space data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_ml_for_space_physics/";
             },},{id: "projects-llm-validation-amp-amp-exploration",
           title: 'LLM Validation &amp;amp;amp; Exploration',
           description: "Stress-testing frontier large language models on technical, long-horizon work",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_llm_validation/";
+              window.location.href = "/projects/4_llm_validation/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
