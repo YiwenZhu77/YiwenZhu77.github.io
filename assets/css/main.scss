@@ -266,12 +266,12 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
 }
 
 /* ----- Project / research-area rows ----- */
-/* Use clamp() so figure column scales with page width while staying readable */
+/* Image takes ~half so its height ≈ text-block height */
 .project-row {
   display: grid;
-  grid-template-columns: clamp(280px, 38%, 460px) 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.8rem;
-  align-items: start;
+  align-items: center;
   padding: 1.6rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
@@ -289,19 +289,19 @@ html[data-theme="dark"] .profile .more-info { color: #aaa; }
   margin: 0 0 0.45rem 0;
 }
 .project-row .project-body p {
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-bottom: 0.6rem;
 }
 .project-row .project-body p:last-child { margin-bottom: 0; }
 .project-row .project-body ul {
-  font-size: 0.93rem;
-  line-height: 1.5;
+  font-size: 0.98rem;
+  line-height: 1.55;
   padding-left: 1.1rem;
   margin-bottom: 0.5rem;
 }
 .project-row .project-body ul li {
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.6rem;
 }
 /* Highlight the project name (leading bold span) in each bullet */
 .project-row .project-body ul li > strong:first-child {
