@@ -386,24 +386,19 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-global-mhd-simulation-of-earth-39-s-magnetosphere",
           title: 'Global MHD Simulation of Earth&amp;#39;s Magnetosphere',
-          description: "Coupled MHD + RCM simulations with the MAGE model — bubble origin of ring-current ions",
+          description: "Coupled MHD + RCM simulation of energy storage and release during geomagnetic storms",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_global_mhd/";
-            },},{id: "projects-space-weather-operational-rcm-with-nasa",
-          title: 'Space Weather — Operational RCM with NASA',
-          description: "Real-time nowcasting of substorm injections into geosynchronous orbit",
+            },},{id: "projects-space-weather-forecasting",
+          title: 'Space Weather Forecasting',
+          description: "Operational nowcasting of substorm injections and ring-current dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_space_weather/";
-            },},{id: "projects-machine-learning-for-space-physics",
-          title: 'Machine Learning for Space Physics',
-          description: "cuspML and TEC-FNO — fast surrogates for ionospheric prediction",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_ml_for_physics/";
             },},{id: "projects-llm-validation-amp-amp-exploration",
           title: 'LLM Validation &amp;amp;amp; Exploration',
-          description: "Frontier-LLM benchmarks for processor design and a survey of long-context reliability",
+          description: "Stress-testing frontier large language models on technical, long-horizon work",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_llm_validation/";
+              window.location.href = "/projects/3_llm_validation/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
