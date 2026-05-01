@@ -189,18 +189,17 @@ nav.navbar .nav-item.active .nav-link {
   border-bottom: 1px solid rgba(255, 255, 255, 0.6) !important;
 }
 
-/* Language toggle: subtle separator + smaller font */
+/* Language toggle */
 nav.navbar .nav-item.lang-toggle {
-  margin-left: 0.4rem;
+  margin-left: 0.6rem;
   padding-left: 1rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 nav.navbar .nav-item.lang-toggle .nav-link {
-  font-size: 0.82rem !important;
-  letter-spacing: 0.05em;
-  opacity: 0.85;
+  font-size: 0.92rem !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
-nav.navbar .nav-item.lang-toggle .nav-link:hover { opacity: 1; }
 
 /* ----- Compact home-page header: big centered name + small affiliation ----- */
 .post-header {
