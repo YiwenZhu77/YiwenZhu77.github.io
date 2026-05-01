@@ -303,6 +303,9 @@ scholar:
   sort_by: year,month
   order: descending,descending
 
+# Cap rendered author list at 3 names; remainder shown as "et al."
+max_author_limit: 3
+
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
