@@ -331,15 +331,12 @@ html[data-theme="dark"] .status-ongoing   { background: #3a2e10; color: #f0d987;
 html[data-theme="dark"] .status-tooling   { background: #1a2838; color: #8db3d9; }
 
 /* ----- Publications list (Chen-Shi-style: flat numbered, year-desc) ----- */
-#publications .pub-note {
-  text-align: center;
-  font-size: 0.92rem;
-  font-family: "Inter", sans-serif;
-  color: #666;
-  margin: -0.4rem 0 1rem;
+/* Keep publication block narrower than the rest of the page for readability */
+#publications {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
-html[data-theme="dark"] #publications .pub-note { color: #aaa; }
-#publications .pub-note a { font-weight: 600; }
 
 /* Hide jekyll-scholar year headers (we use group_by:none, but defensive) */
 #publications .publications h2.bibliography { display: none; }
