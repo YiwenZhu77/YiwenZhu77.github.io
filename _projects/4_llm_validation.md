@@ -7,7 +7,7 @@ importance: 4
 category: research
 ---
 
-Frontier large language models are being deployed for tasks far beyond chat &mdash; from generating production code to running multi-step agentic workflows. Whether they are *actually reliable* on these high-stakes, long-horizon tasks is a separate, largely empirical question. This area asks where today's frontier LLMs succeed, where they fail in non-obvious ways, and what kinds of evaluation protocols we need to tell the difference.
+Frontier large language models are increasingly used for tasks far beyond chat, from generating production code to running multi-step agentic workflows. Whether they are actually reliable on these high-stakes, long-horizon tasks is largely an empirical question.
 
 Within this area I work on the following projects:
 
