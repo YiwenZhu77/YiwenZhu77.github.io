@@ -4,7 +4,7 @@ cv:
   email: yz167@rice.edu
   location: Houston, TX, USA
   image: ""
-  summary: PhD candidate at Rice University working on inner-magnetosphere particle dynamics, ring-current physics, and machine learning for space weather. Concurrent MS in Computer Science (Data & AI) at Rice.
+  summary: PhD candidate at Rice University, finishing a concurrent MS in Computer Science (data and AI track). I work on high performance and parallel computing, machine learning systems, and machine learning for science. I am interested in training large models across many GPUs, how those GPUs communicate and get scheduled, and the systems behind large language model and multi agent applications.
 
   social_networks:
     - network: GitHub
@@ -77,12 +77,14 @@ cv:
           - "Collaboration on the MAGE coupled MHD + RCM modeling effort"
 
     Research areas:
+      - title: Machine learning systems and AI infrastructure
+        description: Training large models across many GPUs, GPU communication and scheduling, serving large language model and multi agent applications
+      - title: Machine learning for science
+        description: Fourier neural operators for forecasting, gradient boosted models on long satellite records, transformer surrogates
+      - title: High performance computing
+        description: MPI, OpenMP, CUDA, Rust, C++; large scale parallel simulation on thousands of cores
       - title: Magnetospheric particle dynamics
         description: Backward test-particle tracing, ring-current loss &amp; sources, dipolarization &amp; substorm physics
-      - title: Magnetosphere&ndash;ionosphere coupling
-        description: RCM modeling, polar-cap convection, field-aligned currents, cusp dynamics
-      - title: ML for space weather
-        description: Fourier neural operators for TEC, XGBoost cusp-location prediction, transformer surrogates
       - title: Agent-driven scientific computing
         description: Autonomous research pipelines on top of Claude Code + HPC
 
