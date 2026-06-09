@@ -90,10 +90,10 @@ cv:
 
     Skills:
       - title: Programming
-        description: Python (polars, NumPy, h5py, JAX, PyTorch), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
+        description: Python (polars, NumPy, h5py, PyTorch), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
       - title: HPC
         description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part, Derecho
       - title: ML / data
-        description: PyTorch, TensorFlow, scikit-learn, JAX, XGBoost, Hugging Face Transformers, Polars, DuckDB, Pandas
+        description: PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face Transformers, Polars, DuckDB, Pandas
       - title: Research tooling
         description: Jekyll, LaTeX, Quarto, Claude Code skills + MCP, Zotero MCP, Obsidian
