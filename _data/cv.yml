@@ -1,10 +1,10 @@
 cv:
   name: Yiwen Zhu
-  label: PhD candidate, Space Physics
+  label: Scientific Computing Researcher | Physics PhD
   email: yz167@rice.edu
   location: Houston, TX, USA
   image: ""
-  summary: PhD candidate at Rice University, finishing a concurrent MS in Computer Science (data and AI track). I work on high performance and parallel computing, machine learning systems, and machine learning for science. I am interested in training large models across many GPUs, how those GPUs communicate and get scheduled, and the systems behind large language model and multi agent applications.
+  summary: Physics PhD and Master of Computer Science (MCS), Rice University, both conferred August 31, 2026. Owner of Zhu AI & Scientific Computing LLC, an early-stage scientific computing business focused on internal research and development and customer discovery. I work on high performance and parallel computing, machine learning systems, and machine learning for science. I am interested in training large models across many GPUs, how those GPUs communicate and get scheduled, and the systems behind large language model and multi agent applications.
 
   social_networks:
     - network: GitHub
@@ -23,7 +23,7 @@ cv:
         area: Physics — Space Physics &amp; Plasma Physics
         studyType: PhD
         start_date: 2020
-        end_date: 2025
+        end_date: 2026-08-31
         highlights:
           - "Advisor: Frank Toffoletto"
           - "Dissertation: ring-current particle dynamics in coupled MHD + RCM simulations of Earth's inner magnetosphere"
@@ -32,17 +32,17 @@ cv:
         location: Houston, TX, USA
         url: https://csweb.rice.edu/
         area: Computer Science — Data &amp; Artificial Intelligence track
-        studyType: MS (concurrent)
+        studyType: Master of Computer Science (MCS)
         start_date: 2024
-        end_date: 2025
+        end_date: 2026-08-31
 
       - institution: Rice University
         location: Houston, TX, USA
         url: https://physics.rice.edu/
-        area: Astronomy
+        area: Physics
         studyType: MS
         start_date: 2020
-        end_date: 2022
+        end_date: 2025-05-10
 
       - institution: Southern University of Science and Technology (SUSTech)
         location: Shenzhen, China
@@ -54,27 +54,36 @@ cv:
         score: "GPA 3.85 / 4.00"
 
     Experience:
+      - company: Zhu AI & Scientific Computing LLC
+        position: Owner | Scientific Computing (Self-employed)
+        location: Houston, TX, USA (remote)
+        start_date: 2026-10-14
+        end_date: present
+        highlights:
+          - "Early-stage internal research and development and customer discovery in scientific computing"
+          - "Numerical modeling, simulation tools, verification, scientific software, and result analysis"
+
+      - company: Rice University
+        position: Temporary Research Specialist
+        location: Houston, TX, USA
+        url: https://physics.rice.edu/
+        start_date: 2026-09-14
+        end_date: 2026-10-19
+        highlights:
+          - "Space physics research, numerical simulations, analysis, and preparation of research papers"
+
       - company: Rice University &mdash; Department of Physics &amp; Astronomy
         position: Graduate Research Assistant
         location: Houston, TX, USA
         url: https://physics.rice.edu/
-        start_date: 2020
-        end_date: present
+        start_date: 2021-08-23
+        end_date: 2026-08-31
         highlights:
           - "Backward test-particle tracing in coupled MHD + RCM simulations to identify the bubble origin of ring-current ions"
           - "RCM &mdash; CHIMP coupling and validation against MHD; cross-comparison of independent backtracking codes (cos &theta; &asymp; 0.98)"
           - "ML pipelines for ionospheric cusp prediction (XGBoost) and TEC nowcasting (Fourier neural operators)"
           - "HPC orchestration on NCAR Derecho (1M-particle batches across 9M total particles, &gt; 200k-file H5Part datasets)"
-
-      - company: High Altitude Observatory, NCAR
-        position: Visiting Graduate Researcher (Derecho HPC affiliate)
-        location: Boulder, CO, USA
-        url: https://www2.hao.ucar.edu/
-        start_date: 2021
-        end_date: present
-        highlights:
-          - "HPC affiliation for the NCAR Derecho system"
-          - "Collaboration on the MAGE coupled MHD + RCM modeling effort"
+          - "Participated in project collaboration involving NCAR during my Rice graduate studies"
 
     Research areas:
       - title: Machine learning systems and AI infrastructure
