@@ -11,10 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Education, research employment, and scientific computing experience.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-consulting",
+          title: "consulting",
+          description: "Zhu AI &amp; Scientific Computing, research and technical consulting by Yiwen Zhu, Ph.D.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/consulting/";
           },
         },{id: "post-a-post-with-plotly-js",
         
