@@ -9,7 +9,7 @@ last_name: Zhu
 contact_note: >
   Best reached by email — feel free to drop me a line about space physics, ML for space science, or research collaboration.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD candidate in space physics at Rice University, working on magnetospheric particle dynamics, ring-current physics, and machine learning for space-weather modeling.
+  Scientific computing researcher with a Physics PhD and Master of Computer Science from Rice University, working on numerical modeling, scientific software, and machine learning for scientific data.
 footer_text: >
   © Yiwen Zhu. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> + <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -302,9 +302,6 @@ scholar:
   group_by: none
   sort_by: year,month
   order: descending,descending
-
-# Cap rendered author list at 3 names; remainder shown as "et al."
-max_author_limit: 3
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
