@@ -82,8 +82,7 @@ cv:
           - "Backward test-particle tracing in coupled MHD + RCM simulations to identify the bubble origin of ring-current ions"
           - "RCM &mdash; CHIMP coupling and validation against MHD; cross-comparison of independent backtracking codes (cos &theta; &asymp; 0.98)"
           - "ML pipelines for ionospheric cusp prediction (XGBoost) and TEC nowcasting (Fourier neural operators)"
-          - "HPC orchestration on NCAR Derecho (1M-particle batches across 9M total particles, &gt; 200k-file H5Part datasets)"
-          - "Participated in project collaboration involving NCAR during my Rice graduate studies"
+          - "Large-scale HPC simulation workflows (1M-particle batches across 9M total particles, &gt; 200k-file H5Part datasets)"
 
     Research areas:
       - title: Machine learning systems and AI infrastructure
@@ -101,7 +100,7 @@ cv:
       - title: Programming
         description: Python (polars, NumPy, h5py, PyTorch), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
       - title: HPC
-        description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part, Derecho
+        description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part
       - title: ML / data
         description: PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face Transformers, Polars, DuckDB, Pandas
       - title: Research tooling
