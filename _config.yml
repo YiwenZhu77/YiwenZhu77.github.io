@@ -7,13 +7,13 @@ first_name: Yiwen
 middle_name:
 last_name: Zhu
 contact_note: >
-  Best reached by email — feel free to drop me a line about space physics, ML for space science, or research collaboration.
+  Best reached by email for questions about scientific computing, numerical modeling, or research collaboration.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Scientific computing researcher with a Physics PhD and Master of Computer Science from Rice University, working on numerical modeling, scientific software, and machine learning for scientific data.
+  Scientific computing researcher with a Physics PhD and Master of Computer Science from Rice University, working on numerical modeling, scientific software, and data analysis.
 footer_text: >
   © Yiwen Zhu. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> + <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: yiwen zhu, rice university, space physics, magnetosphere, ring current, machine learning, space weather, ionosphere
+keywords: yiwen zhu, rice university, scientific computing, numerical modeling, computational physics, scientific software
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⊕ # subtle academic-looking favicon glyph
 
@@ -127,17 +127,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -153,15 +143,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
     output: true
   projects:
-    output: true
-  teachings:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -260,18 +246,10 @@ terser:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+jekyll-archives: {}
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

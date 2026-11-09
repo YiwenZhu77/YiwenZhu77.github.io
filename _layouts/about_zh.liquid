@@ -3,9 +3,7 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      <span class="font-weight-bold">Yiwen</span> Zhu
-    </h1>
+    <h1 class="post-title"><span class="font-weight-bold">Yiwen</span> Zhu</h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -17,9 +15,7 @@ layout: default
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {%
-              include figure.liquid loading="eager" path=profile_image_path class="img-fluid z-depth-1 rounded" sizes=sizes alt=page.profile.image cache_bust=true
-            %}
+            {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid z-depth-1 rounded" sizes=sizes alt=page.profile.image cache_bust=true %}
           {% endif %}
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
@@ -34,67 +30,45 @@ layout: default
       <h2 class="section-heading">研究方向</h2>
 
       <div class="project-row">
-        <div class="project-img">
-          {% include figure.liquid loading="lazy" path="assets/img/area_mhd_simulation.jpg" class="img-fluid rounded" alt="地球磁层全球 MHD 模拟" %}
-        </div>
         <div class="project-text">
-          <h3>地球磁层全球 MHD 模拟</h3>
+          <h3>大规模等离子体数值模拟</h3>
           <div class="project-body">
-            <p>地球磁层是太阳风与地球磁场相互作用所雕刻出的巨大空间区域。全球磁流体力学（MHD）模拟与内磁层动力学模型耦合，是研究等离子体在整个磁层尺度上循环与加速过程的主要工具。我主要使用的模型是 <a href="https://cgs.jhuapl.edu/MAGE/"><strong>MAGE</strong></a>（Multiscale Atmosphere–Geospace Environment），一个仍在持续开发的耦合 MHD + RCM + 电离层框架，我也是 MAGE 的开发者之一。</p>
+            <p>
+              我的博士研究使用磁流体力学模拟，并与内磁层动力学模型耦合，研究大尺度等离子体系统中的物质输运与能量转化。相关工作包括模型耦合、数值验证，以及对模拟结果的定量分析。
+            </p>
             <p>本方向下我从事以下项目：</p>
             <ul>
-              <li><strong>O<sup>+</sup> 离子从极尖区到内磁层的输运</strong>。研究起源于极尖区的 O+ 离子如何被输运到内磁层。</li>
-              <li><strong>高速流（BBF）对环电流的贡献</strong>。使用反向试探粒子追踪器（BackTrac）识别风暴期间环电流离子中有多少来自等离子体片中的高速流（BBF, Bursty Bulk Flow）。</li>
+              <li><strong>带电粒子输运</strong>。研究不同源区与边界条件对大规模等离子体输运过程的影响。</li>
+              <li><strong>反向试探粒子追踪</strong>。使用数值粒子追踪与模型对比，识别粒子源区及其对整体分布的贡献。</li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="project-row">
-        <div class="project-img">
-          {% include figure.liquid loading="lazy" path="assets/img/area_space_weather.jpg" class="img-fluid rounded" alt="空间天气预报" %}
-        </div>
         <div class="project-text">
-          <h3>空间天气预报</h3>
+          <h3>数值预报工作流</h3>
           <div class="project-body">
-            <p>空间天气是由太阳驱动、并在地球上产生影响的一系列高能现象，对卫星、通信、GPS 与电网都会产生影响。业务化即时预报通过将磁层的科学模型与实时数据流相连接，使我们能够在带电粒子或电磁扰动到达基础设施之前发出预警。</p>
+            <p>
+              数值预报将科学模型、实时数据流与结果分析连接起来，为随时间变化的物理系统提供计算支持。相关经验包括数据预处理、模型运行、结果汇总和异常事件标记。
+            </p>
             <p>本方向下我从事以下项目：</p>
             <ul>
-              <li><strong>业务化 RCM</strong>。一条实时数据流流水线，使用实时太阳风输入驱动莱斯对流模型（RCM），并标记地球同步轨道上的候选亚暴粒子注入事件。</li>
+              <li><strong>流式数据处理流程</strong>。构建可重复的数据输入、模型运行与结果分析流程，并对时间序列中的异常变化进行标记。</li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="project-row">
-        <div class="project-img">
-          {% include figure.liquid loading="lazy" path="assets/img/area_ml_physics.jpg" class="img-fluid rounded" alt="面向空间物理的机器学习" %}
-        </div>
         <div class="project-text">
-          <h3>面向空间物理的机器学习</h3>
+          <h3>面向物理系统的数据驱动建模</h3>
           <div class="project-body">
-            <p>全球物理模型能够刻画底层物理过程，但对业务系统需要响应的每一次太阳风扰动来说运行成本过高。机器学习代理模型基于长时间的历史观测训练，可以在极低的计算开销下提供快速、准确的预测。</p>
+            <p>长期观测和数值模型输出可用于构建时间序列预测与结果分析流程。我关注数据质量控制、特征设计、验证划分和不同预测方法之间的可复现比较。</p>
             <p>本方向下我从事以下项目：</p>
             <ul>
-              <li><strong>电离层极尖位置预测</strong>。基于上游太阳风参数预测电离层极尖磁纬度位置的梯度提升树模型，使用数十年的原位粒子沉降观测数据训练。</li>
-              <li><strong>电离层总电子含量与环电流预测</strong>。对电离层总电子含量（TEC）以及环电流指数 SYM-H 进行多时间尺度预测，在相同的评估划分下比较神经算子（neural operator）与状态空间模型。</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-row">
-        <div class="project-img">
-          {% include figure.liquid loading="lazy" path="assets/img/area_llm_validation.jpg" class="img-fluid rounded" alt="大语言模型的验证与探索" %}
-        </div>
-        <div class="project-text">
-          <h3>大语言模型的验证与探索</h3>
-          <div class="project-body">
-            <p>前沿大语言模型正在被用于远超对话的任务，从生成生产级代码到执行多步骤的代理（agentic）工作流。它们在这些高风险、长程任务上是否真正可靠，很大程度上仍是一个实证问题。</p>
-            <p>本方向下我从事以下项目：</p>
-            <ul>
-              <li><strong>LLM 驱动的处理器设计</strong>。在多个 CPU 设计复杂度等级上对几款前沿大语言模型进行同台对比，并完成端到端的 ASIC 综合、布局布线与时序收敛。</li>
-              <li><strong>长上下文可靠性综述</strong>。综述长上下文大语言模型在检索、摘要与代理任务部署中的失效模式、公开评测基准与设计准则。</li>
+              <li><strong>基于长期观测的统计预测</strong>。构建梯度提升树模型，并在统一评估划分下检查预测结果与误差来源。</li>
+              <li><strong>多时间尺度预测方法比较</strong>。针对时间序列预测任务比较不同数值与数据驱动方法的表现。</li>
             </ul>
           </div>
         </div>
