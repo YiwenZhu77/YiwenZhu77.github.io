@@ -11,4 +11,4 @@ Space weather, the chain of energetic phenomena driven by the Sun and felt at Ea
 
 Within this area I work on the following projects:
 
-- **Operational RCM with NASA.** A streaming pipeline that drives the Rice Convection Model with real-time solar-wind input and flags candidate substorm injections of energetic particles at geosynchronous orbit.
+- **Operational RCM.** A streaming pipeline that drives the Rice Convection Model with real-time solar-wind input and flags candidate substorm injections of energetic particles at geosynchronous orbit.
