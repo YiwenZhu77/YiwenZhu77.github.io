@@ -100,7 +100,7 @@ cv:
       - title: Programming
         description: Python (polars, NumPy, h5py, PyTorch), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
       - title: HPC
-        description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part, Derecho
+        description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part
       - title: ML / data
         description: PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face Transformers, Polars, DuckDB, Pandas
       - title: Research tooling
