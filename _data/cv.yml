@@ -4,7 +4,7 @@ cv:
   email: yz167@rice.edu
   location: Houston, TX, USA
   image: ""
-  summary: Physics PhD and Master of Computer Science (MCS), Rice University, both conferred August 31, 2026. Owner of Zhu AI & Scientific Computing LLC, an early-stage scientific computing business focused on internal research and development and customer discovery. I work on high performance and parallel computing, machine learning systems, and machine learning for science. I am interested in training large models across many GPUs, how those GPUs communicate and get scheduled, and the systems behind large language model and multi agent applications.
+  summary: Physics PhD and Master of Computer Science (MCS), Rice University, both conferred August 31, 2026. Owner of Zhu AI & Scientific Computing LLC, an early-stage scientific computing business focused on internal research and development and customer discovery. My work combines numerical modeling, computational physics, high-performance computing, data analysis, and scientific software development.
 
   social_networks:
     - network: GitHub
@@ -31,7 +31,7 @@ cv:
       - institution: Rice University
         location: Houston, TX, USA
         url: https://csweb.rice.edu/
-        area: Computer Science — Data &amp; Artificial Intelligence track
+        area: Computer Science
         studyType: Master of Computer Science (MCS)
         start_date: 2024
         end_date: 2026-08-31
@@ -70,7 +70,7 @@ cv:
         start_date: 2026-09-14
         end_date: 2026-10-19
         highlights:
-          - "Space physics research, numerical simulations, analysis, and preparation of research papers"
+          - "Computational research, numerical simulations, analysis, and preparation of research papers"
 
       - company: Rice University &mdash; Department of Physics &amp; Astronomy
         position: Graduate Research Assistant
@@ -79,29 +79,29 @@ cv:
         start_date: 2021-08-23
         end_date: 2026-08-31
         highlights:
-          - "Backward test-particle tracing in coupled MHD + RCM simulations to identify the bubble origin of ring-current ions"
-          - "RCM &mdash; CHIMP coupling and validation against MHD; cross-comparison of independent backtracking codes (cos &theta; &asymp; 0.98)"
-          - "ML pipelines for ionospheric cusp prediction (XGBoost) and TEC nowcasting (Fourier neural operators)"
+          - "Numerical simulation and charged-particle transport studies in coupled physical models"
+          - "Model coupling and validation; cross-comparison of independent numerical implementations (cos &theta; &asymp; 0.98)"
+          - "Data-driven forecasting workflows using long records and model outputs"
           - "Large-scale HPC simulation workflows (1M-particle batches across 9M total particles, &gt; 200k-file H5Part datasets)"
 
     Research areas:
-      - title: Machine learning systems and AI infrastructure
-        description: Training large models across many GPUs, GPU communication and scheduling, serving large language model and multi agent applications
-      - title: Machine learning for science
-        description: Fourier neural operators for forecasting, gradient boosted models on long satellite records, transformer surrogates
+      - title: Scientific computing and numerical methods
+        description: Numerical simulation, model validation, reproducible computational workflows, and analysis of model results
+      - title: Data-driven forecasting for physical systems
+        description: Statistical and data-driven methods for time-series prediction and model comparison
       - title: High performance computing
-        description: MPI, OpenMP, CUDA, Rust, C++; large scale parallel simulation on thousands of cores
-      - title: Magnetospheric particle dynamics
-        description: Backward test-particle tracing, ring-current loss &amp; sources, dipolarization &amp; substorm physics
-      - title: Agent-driven scientific computing
-        description: Autonomous research pipelines on top of Claude Code + HPC
+        description: MPI, OpenMP, C/C++, Rust; large-scale parallel simulation on thousands of cores
+      - title: Computational physics
+        description: Charged-particle transport, kinetic test-particle methods, and coupled numerical models
+      - title: Scientific software engineering
+        description: Research tooling, reproducible pipelines, data processing, and visualization
 
     Skills:
       - title: Programming
-        description: Python (polars, NumPy, h5py, PyTorch), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
+        description: Python (polars, NumPy, h5py), C/C++, MATLAB, Fortran (read), Julia, Rust, Swift, R, SQL, Bash
       - title: HPC
-        description: PBS, MPI (OpenMPI/MPICH), OpenMP, CUDA, MAGE / CHIMP / RCM, h5part
-      - title: ML / data
-        description: PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face Transformers, Polars, DuckDB, Pandas
+        description: PBS, MPI (OpenMPI/MPICH), OpenMP, numerical model workflows, h5part
+      - title: Data analysis
+        description: Polars, DuckDB, pandas, NumPy, statistical analysis, and visualization
       - title: Research tooling
-        description: Jekyll, LaTeX, Quarto, Claude Code skills + MCP, Zotero MCP, Obsidian
+        description: Jekyll, LaTeX, Quarto, Zotero, and Obsidian
